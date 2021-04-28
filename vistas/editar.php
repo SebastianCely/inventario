@@ -26,7 +26,7 @@ $id = ProductoDao::buscarPorId($_GET['id']);
 </div>
 <div class="form-group">
 <label for="peso">Peso:</label>
-<input type="text" id="peso" name="registroPeso" value="<?=$id[4]?>">
+<input type="text" id="peso" name="registroPeso" value="<?=$id[4]?>" >
 </div>
 <div class="form-group">
 <label for="categoria">Categoria:</label>
